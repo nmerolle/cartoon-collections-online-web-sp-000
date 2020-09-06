@@ -5,7 +5,7 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(elements)
-  ele_array
+  ele_array = []
   elements.map do |element|
     ele_array << element.upcase + "!"
   end
