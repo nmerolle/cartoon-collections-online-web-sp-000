@@ -12,7 +12,9 @@ def summon_captain_planet(elements)
   ele_array
 end
 
-def long_planeteer_calls# code an argument here
+def long_planeteer_calls(call)
+  state = []
+  
   # Your code here
 end
 
