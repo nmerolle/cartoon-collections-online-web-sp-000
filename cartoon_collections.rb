@@ -12,9 +12,10 @@ def summon_captain_planet(elements)
   ele_array
 end
 
-def long_planeteer_calls(call)
+def long_planeteer_calls(calls)
   state = []
-  
+  calls.map do |call|
+    state << call
   # Your code here
 end
 
