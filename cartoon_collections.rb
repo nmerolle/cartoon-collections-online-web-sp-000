@@ -9,7 +9,7 @@ def summon_captain_planet(elements)
   elements.map do |element|
     ele_array << "#{element.upcase}!"
   end
-  # Your code here
+  ele_array
 end
 
 def long_planeteer_calls# code an argument here
